@@ -1,0 +1,48 @@
+body {
+    background-image: url('images/bg.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#weather * {
+    color: white;
+}
+
+#weather h1 {
+    font-size: 2em;
+}
+
+label {
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(4, 4, 77);
+    padding: 15px;
+    background-color: rgba(240, 248, 255, 0.582);
+}
+
+p {
+    font-size: 1.2em;
+    color: beige;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px 10px;
+    margin: 20px;
+    font-size: 1.5em;
+    border: none;
+    color: rgb(82, 16, 65);
+}
+
+button {
+    padding: 25px;
+    font-size: 1.5em;
+    border-radius: 10px 10px;
+    color: rgb(192, 240, 240);
+    font-weight: 400;
+    cursor: pointer;
+    background-color: rgba(165, 42, 42, 0.438);
+}
