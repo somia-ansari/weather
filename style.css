@@ -148,4 +148,11 @@ nav ul a:hover {
     header {
         font-size: 0.8em;
     }
+    #info ul {
+        flex-direction: column;
+    }
+    #info ul li {
+        margin: 0;
+        margin-bottom: 20px;
+    }
 }
