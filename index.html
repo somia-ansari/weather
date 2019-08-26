@@ -5,17 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Weather</title>
 </head>
 
 <body>
-    <label for="place">Enter name of Place here to Search</label>
-    <input id="place" type="text">
-    <button onclick="search()">Find weather</button>
+    <header>
+        <nav>
+            <ul>
+                <a href="https://github.com/somia-ansari/weather" target="_blank">
+                    <li>Visit Repo</li>
+                </a>
+                <a href="https://github.com/somia-ansari/weather" target="_blank">
+                    <li>Like Repo</li>
+                </a>
+                <a href="https://somia-ansari.github.io/stopwatch/" target="_blank">
+                    <li>About Time</li>
+                </a>
+            </ul>
+        </nav>
+        <h1>
+            Get weather update of desired place
+        </h1>
+    </header>
+    <main>
+        <input id="place" type="text" placeholder="Name of Place here">
+        <button onclick="search()">Find weather</button>
+    </main>
     <div id="weather">
-        <h1></h1>
-        <p></p>
+        <div id="info">
+            <h1></h1>
+            <ul>
+                <!-- <li id="icon"></li> -->
+                <li id="weather-status"></li>
+                <li id="weather-desc"></li>
+                <li id="temperature"></li>
+                <li id="wind-speed"></li>
+                <li id="time"></li>
+                <li id="date"></li>
+
+            </ul>
+        </div>
     </div>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
