@@ -13,7 +13,7 @@ function search() {
             document.querySelector('#wind-speed').innerHTML = `Wind Speed: ${response.data.wind.speed} min/sec`;
 
             document.querySelector('#time').innerHTML = `Time: ${new Date(response.data.dt * 1000).getHours()}:${new Date(response.data.dt * 1000).getMinutes()}:${new Date(response.data.dt * 1000).getSeconds()}`;
-            document.querySelector('#date').innerHTML = `Date: ${new Date(response.data.dt * 1000).getDate()} of ${new Date(response.data.dt * 1000).getMonth()}th ${new Date(response.data.dt * 1000).getFullYear()}`;
+            document.querySelector('#date').innerHTML = `Date: ${new Date(response.data.dt * 1000).getDate()} of ${new Date(response.data.dt * 1000).getMonth()+1}th ${new Date(response.data.dt * 1000).getFullYear()}`;
 
 
 
