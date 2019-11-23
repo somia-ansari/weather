@@ -60,7 +60,7 @@ ul li {
 nav ul a {
   flex: 1;
   font-size: 1.5em;
-  color: whitesmoke;
+  color: azure;
   padding: 10px 25px;
   border-right: 1px solid rgb(28, 28, 54);
   border-radius: 10px;
